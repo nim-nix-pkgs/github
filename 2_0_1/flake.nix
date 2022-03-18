@@ -13,13 +13,6 @@
   inputs.src-github-2_0_1.repo  = "github";
   inputs.src-github-2_0_1.type  = "github";
   
-  inputs."npeg".owner = "nim-nix-pkgs";
-  inputs."npeg".ref   = "master";
-  inputs."npeg".repo  = "npeg";
-  inputs."npeg".type  = "github";
-  inputs."npeg".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."npeg".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
-  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
     lib  = flakeNimbleLib.lib;
