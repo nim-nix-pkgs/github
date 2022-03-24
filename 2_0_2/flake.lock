@@ -32,10 +32,38 @@
         "type": "indirect"
       }
     },
+    "npeg": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-npeg-0_22_2": "src-npeg-0_22_2"
+      },
+      "locked": {
+        "dir": "0_22_2",
+        "lastModified": 1648081302,
+        "narHash": "sha256-BrgJ/ig/gi/J1ESTUeHlRlVJRrT9uzu7I9onvFIzlBE=",
+        "owner": "nim-nix-pkgs",
+        "repo": "npeg",
+        "rev": "a74bf12a05fd0e8a16fea7fd25179e2486bffe4e",
+        "type": "github"
+      },
+      "original": {
+        "dir": "0_22_2",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "npeg",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
+        "npeg": "npeg",
         "src-github-2_0_2": "src-github-2_0_2"
       }
     },
@@ -53,6 +81,23 @@
         "owner": "disruptek",
         "ref": "refs/tags/2.0.2",
         "repo": "github",
+        "type": "github"
+      }
+    },
+    "src-npeg-0_22_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1577453040,
+        "narHash": "sha256-RFLlmETH2b+fQ45VZ4fhcphVsgWZuWYpFMxciuhSHQ4=",
+        "owner": "zevv",
+        "repo": "npeg",
+        "rev": "814ea235dd398108d7b18f966694c3d951575701",
+        "type": "github"
+      },
+      "original": {
+        "owner": "zevv",
+        "ref": "refs/tags/0.22.2",
+        "repo": "npeg",
         "type": "github"
       }
     }
