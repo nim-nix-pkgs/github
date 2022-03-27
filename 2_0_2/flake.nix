@@ -11,6 +11,7 @@
   inputs.src-github-2_0_2.ref   = "refs/tags/2.0.2";
   inputs.src-github-2_0_2.owner = "disruptek";
   inputs.src-github-2_0_2.repo  = "github";
+  inputs.src-github-2_0_2.dir   = "";
   inputs.src-github-2_0_2.type  = "github";
   
   inputs."npeg".owner = "nim-nix-pkgs";

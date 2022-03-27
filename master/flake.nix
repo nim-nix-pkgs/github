@@ -11,6 +11,7 @@
   inputs.src-github-master.ref   = "refs/heads/master";
   inputs.src-github-master.owner = "disruptek";
   inputs.src-github-master.repo  = "github";
+  inputs.src-github-master.dir   = "";
   inputs.src-github-master.type  = "github";
   
   inputs."npeg".owner = "nim-nix-pkgs";
