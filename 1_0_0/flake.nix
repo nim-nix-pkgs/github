@@ -11,7 +11,6 @@
   inputs.src-github-1_0_0.ref   = "refs/tags/1.0.0";
   inputs.src-github-1_0_0.owner = "disruptek";
   inputs.src-github-1_0_0.repo  = "github";
-  inputs.src-github-1_0_0.dir   = "";
   inputs.src-github-1_0_0.type  = "github";
   
   inputs."npeg".owner = "nim-nix-pkgs";
@@ -21,6 +20,14 @@
   inputs."npeg".type  = "github";
   inputs."npeg".inputs.nixpkgs.follows = "nixpkgs";
   inputs."npeg".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."github.com/disruptek/rest".owner = "nim-nix-pkgs";
+  inputs."github.com/disruptek/rest".ref   = "master";
+  inputs."github.com/disruptek/rest".repo  = "github.com/disruptek/rest";
+  inputs."github.com/disruptek/rest".dir   = "";
+  inputs."github.com/disruptek/rest".type  = "github";
+  inputs."github.com/disruptek/rest".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."github.com/disruptek/rest".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
