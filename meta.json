@@ -7,7 +7,7 @@
   "license": "MIT",
   "web": "https://github.com/disruptek/github",
   "refs": [
-    "fatal: unable to access 'https://github.com/disruptek/github/': Could not resolve host: github.com",
+    "fatal: unable to access 'https://github.com/disruptek/github/': SSL connection timeout",
     ""
   ],
   "heads": []
