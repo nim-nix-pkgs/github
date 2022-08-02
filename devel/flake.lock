@@ -98,10 +98,10 @@
         "nixpkgs": [
           "nixpkgs"
         ],
-        "src-npeg-0_26_0": "src-npeg-0_26_0"
+        "src-npeg-0_22_2": "src-npeg-0_22_2"
       },
       "locked": {
-        "dir": "0_26_0",
+        "dir": "0_22_2",
         "lastModified": 1659475537,
         "narHash": "sha256-GEUB2k7tb5VFXdum3WRyGMfY384DloKpdb3bf81o+sY=",
         "owner": "nim-nix-pkgs",
@@ -110,7 +110,7 @@
         "type": "github"
       },
       "original": {
-        "dir": "0_26_0",
+        "dir": "0_22_2",
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "npeg",
@@ -123,7 +123,7 @@
         "github-disruptek-rest": "github-disruptek-rest",
         "nixpkgs": "nixpkgs",
         "npeg": "npeg",
-        "src-github-master": "src-github-master"
+        "src-github-devel": "src-github-devel"
       }
     },
     "src-foreach-1_0_2": {
@@ -143,36 +143,36 @@
         "type": "github"
       }
     },
-    "src-github-master": {
+    "src-github-devel": {
       "flake": false,
       "locked": {
-        "lastModified": 1604854143,
-        "narHash": "sha256-kQSzMygi70epDjvKLg0DYDjyH5iN33G2cjIqaHqyUjI=",
+        "lastModified": 1588345797,
+        "narHash": "sha256-ODxzujCEqj3DjPdxhRH/z7IgR0nnUrHM7kIPJpLOaBk=",
         "owner": "disruptek",
         "repo": "github",
-        "rev": "93eaa02c40e1ca63b49656ff2214da55b13c12df",
+        "rev": "abfa18dd6b7fc8cad4cbe907c4b536592ad761f4",
         "type": "github"
       },
       "original": {
         "owner": "disruptek",
-        "ref": "refs/heads/master",
+        "ref": "refs/heads/devel",
         "repo": "github",
         "type": "github"
       }
     },
-    "src-npeg-0_26_0": {
+    "src-npeg-0_22_2": {
       "flake": false,
       "locked": {
-        "lastModified": 1638043012,
-        "narHash": "sha256-TONFgg0upLJuhsP9y+z+kYZp+m8/h36NK/VOK2h0Aw0=",
+        "lastModified": 1577453040,
+        "narHash": "sha256-RFLlmETH2b+fQ45VZ4fhcphVsgWZuWYpFMxciuhSHQ4=",
         "owner": "zevv",
         "repo": "npeg",
-        "rev": "afbd4e09055a9c01ea4b860a7a622748bc382e8f",
+        "rev": "814ea235dd398108d7b18f966694c3d951575701",
         "type": "github"
       },
       "original": {
         "owner": "zevv",
-        "ref": "refs/tags/0.26.0",
+        "ref": "refs/tags/0.22.2",
         "repo": "npeg",
         "type": "github"
       }
